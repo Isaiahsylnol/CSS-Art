@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -133,7 +132,7 @@ body {
   border: 3px solid black;
   border-bottom: 0;
   z-index: 1;
-} 
+}
 
 .cloud-container {
   height: 100%;
@@ -303,7 +302,7 @@ body {
   top: 233px;
   left: 5px;
   border-radius: 100% 0 0 0;
-  background: #fff;
+  background-color: #fff;
 }
 
 #cloud-2:after {
@@ -318,7 +317,7 @@ body {
 #cloud-2:before {
   width: 1000px;
   height: 140px;
-  background: #fff;
+  background-color: #fff;
   border-radius: 100px;
   position: absolute;
   transform: rotate(0deg);
@@ -330,7 +329,7 @@ body {
 #cloud-2-2 {
   left: 330px;
   top: -299px;
-  background: #fff;
+  background-color: #fff;
   border-radius: 100% 100% 0 0;
   height: 330px;
   width: 290px;
@@ -352,7 +351,7 @@ body {
   position: absolute;
   height: 400px;
   display: block;
-  background: white;
+  background-color: white;
   border-radius: 50%;
   left: 180px;
   transform: rotate(60deg);
@@ -362,7 +361,7 @@ body {
 #cloud-2-3:after {
   top: -25px;
   left: 17px;
-  background: white;
+  background-color: white;
   content: "";
   width: 80%;
   position: absolute;
@@ -373,7 +372,7 @@ body {
 }
 
 /* #cloud-2-4 {
-  background: red;
+  background-color: red;
   top: -484px;
   left: 74px;
   width: 420px;
@@ -386,7 +385,7 @@ body {
 .cloud {
   width: 750px;
   height: 140px;
-  background: #fff;
+  background-color: #fff;
   border-radius: 100px;
   position: absolute;
   -webkit-transform: scale(0.3);
@@ -399,7 +398,7 @@ body {
 .cloud:before {
   content: "";
   position: absolute;
-  background: inherit;
+  background-color: inherit;
   z-index: -1;
 }
 
@@ -408,7 +407,7 @@ body {
   width: 400px;
   right: -184px;
   top: -92px;
-  background: green;
+  background-color: green;
   border-left: solid black 3px;
   border-top: solid black 3px;
   position: absolute;
@@ -422,7 +421,7 @@ body {
   width: 400px;
   left: -185px;
   top: -90px;
-  background: green;
+  background-color: green;
   border-left: solid black 3px;
   border-top: solid black 3px;
   position: absolute;
@@ -431,8 +430,20 @@ body {
   z-index: 1;
 }
 
+.field-left {
+  height: 380px;
+  width: 380px;
+  left: -185px;
+  top: -70px;
+  background-color: red;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  transform: rotate(44deg);
+  z-index: 2;
+}
+
 .road {
-  background: #4c4c4c;
+  background-color: #4c4c4c;
   background: -moz-linear-gradient(
     top,
     #4c4c4c 0%,
@@ -488,7 +499,7 @@ body {
   height: 330px;
   border-right: 3px solid #fff;
   transform: rotate(36deg);
-  background: white;
+  background-color: white;
   clip-path: polygon(47% 0, 46% 0, 38% 100%, 0% 100%);
 }
 
@@ -500,7 +511,7 @@ body {
   height: 340px;
   border-right: 3px solid #fff;
   transform: rotate(-44deg);
-  background: white;
+  background-color: white;
   clip-path: polygon(47% 0, 46% 0, 38% 100%, 0% 100%);
 }
 
@@ -509,7 +520,7 @@ body {
   left: 290px;
   width: 10px;
   height: 140px;
-  background: #fff;
+  background-color: #fff;
   position: absolute;
 }
 
@@ -518,7 +529,7 @@ body {
   left: -57px;
   width: 130px;
   height: 40px;
-  background: #fff;
+  background-color: #fff;
   clip-path: polygon(47% 0, 50% 0, 51% 100%, 46% 100%);
 }
 
@@ -527,7 +538,7 @@ body {
   left: -23px;
   width: 60px;
   height: 15px;
-  background: #fff;
+  background-color: #fff;
   clip-path: polygon(47% 0, 50% 0, 51% 100%, 46% 100%);
 }
 
@@ -536,6 +547,6 @@ body {
   left: 295px;
   width: 2px;
   height: 10px;
-  background: #fff;
+  background-color: #fff;
   position: absolute;
 }
