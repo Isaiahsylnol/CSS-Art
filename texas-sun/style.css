@@ -16,7 +16,6 @@
 }
 
 body {
-  font-family: "Sanchez", serif;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,7 +26,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #a9c1ed;
+  background-color: #faf9f6;
 }
 
 .wrapper {
@@ -440,6 +439,380 @@ body {
   clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
   transform: rotate(44deg);
   z-index: 2;
+}
+
+.field-left:before {
+  height: 370px;
+  width: 370px;
+  left: 1px;
+  top: 20px;
+  background-color: #ca472e;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  z-index: 2;
+}
+
+.field-left:after {
+  height: 350px;
+  width: 350px;
+  left: 14px;
+  top: 36px;
+  background-color: #8630ad;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  z-index: 2;
+}
+
+.field-left-2 {
+  height: 220px;
+  width: 220px;
+  left: 242px;
+  top: 112px;
+  background-color: #c43766;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  transform: rotate(135deg);
+  z-index: 3;
+}
+
+.field-left-2:before {
+  height: 220px;
+  width: 220px;
+  left: 30px;
+  top: -12px;
+  background-color: #d7981a;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  z-index: 3;
+}
+
+.field-right {
+  height: 380px;
+  width: 380px;
+  left: 405px;
+  top: -70px;
+  background-color: red;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.field-right:before {
+  height: 370px;
+  width: 370px;
+  left: 22px;
+  top: 1px;
+  background-color: #ca472e;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  z-index: 2;
+}
+
+.field-right:after {
+  height: 320px;
+  width: 320px;
+  left: 48px;
+  top: 40px;
+  background-color: #8630ad;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  z-index: 2;
+}
+
+.field-right-2 {
+  height: 260px;
+  width: 270px;
+  left: 70px;
+  top: 85px;
+  background-color: #c43766;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  z-index: 3;
+  transform: rotate(-2deg);
+}
+
+.field-right-2:before {
+  height: 260px;
+  width: 260px;
+  left: 30px;
+  top: -11px;
+  background-color: #d7981a;
+  position: absolute;
+  clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+  z-index: 3;
+  transform: rotate(1deg);
+}
+
+.lamp-1 {
+  left: 66px;
+  top: 5px;
+  background-color: black;
+  width: 25px;
+  height: 342px;
+  position: absolute;
+  z-index: 3;
+}
+
+.lamp-1:before {
+  left: 110px;
+  top: 91px;
+  background-color: black;
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  transform: rotate(10deg);
+  z-index: 3;
+}
+
+.lamp-2:after {
+  left: 10px;
+  top: 37px;
+  background-color: black;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  transform: rotate(10deg);
+  z-index: 3;
+}
+
+.lamp-1:after {
+  left: 158px;
+  top: 98px;
+  background-color: black;
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  transform: rotate(10deg);
+  z-index: 3;
+}
+
+.lamp-2 {
+  left: 160px;
+  top: 50px;
+  background-color: black;
+  width: 17px;
+  height: 200px;
+  position: absolute;
+  z-index: 3;
+}
+
+.lamp-2:before {
+  left: -90px;
+  top: 31px;
+  background-color: black;
+  width: 104px;
+  height: 9px;
+  position: absolute;
+  transform: rotate(10deg);
+  z-index: 3;
+}
+
+.lamp-3:after {
+  left: -150px;
+  top: -13px;
+  background-color: black;
+  width: 104px;
+  height: 9px;
+  position: absolute;
+  transform: rotate(13deg);
+  z-index: 3;
+}
+
+.lamp-3 {
+  left: 220px;
+  top: 80px;
+  background-color: black;
+  width: 10px;
+  height: 107px;
+  position: absolute;
+  z-index: 3;
+}
+
+.lamp-3:before {
+  left: -230px;
+  top: -36px;
+  background-color: black;
+  width: 100px;
+  height: 13px;
+  position: absolute;
+  transform: rotate(13deg);
+  z-index: 3;
+}
+
+.lamp-4:after {
+  left: -270px;
+  top: -31px;
+  background-color: black;
+  width: 100px;
+  height: 13px;
+  position: absolute;
+  transform: rotate(10deg);
+  z-index: 3;
+}
+
+.lamp-4 {
+  left: 260px;
+  top: 95px;
+  background-color: black;
+  width: 6px;
+  height: 55px;
+  position: absolute;
+  z-index: 3;
+}
+
+.lamp-4:before {
+  left: 18px;
+  top: 8px;
+  background-color: black;
+  width: 3px;
+  height: 25px;
+  position: absolute;
+  z-index: 3;
+}
+
+.lamp-5 {
+  left: 225px;
+  top: 98px;
+  background-color: black;
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  transform: rotate(10deg);
+  z-index: 3;
+}
+
+.lamp-5:before {
+  left: 37px;
+  top: 2px;
+  background-color: black;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  transform: rotate(-1deg);
+  z-index: 3;
+}
+
+.lamp-5:after {
+  left: 37px;
+  top: 5px;
+  background-color: black;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  transform: rotate(-1deg);
+  z-index: 3;
+}
+
+.lamp-6 {
+  left: 513px;
+  top: 5px;
+  background-color: black;
+  width: 25px;
+  height: 342px;
+  position: absolute;
+  z-index: 3;
+}
+
+.lamp-6:before {
+  left: -83px;
+  top: 50px;
+  background-color: black;
+  width: 17px;
+  height: 200px;
+  position: absolute;
+  z-index: 3;
+}
+
+.lamp-6:after {
+  left: -140px;
+  top: 80px;
+  background-color: black;
+  width: 10px;
+  height: 107px;
+  position: absolute;
+  z-index: 3;
+}
+
+.lamp-7 {
+  left: 330px;
+  top: 95px;
+  background-color: black;
+  width: 6px;
+  height: 55px;
+  position: absolute;
+  z-index: 3;
+}
+
+.lamp-7:before {
+  left: -17px;
+  top: 8px;
+  background-color: black;
+  width: 3px;
+  height: 25px;
+  position: absolute;
+  z-index: 3;
+}
+
+/* Right side wires */
+
+.lamp-8 {
+  left: 315px;
+  top: 105px;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+  width: 20px;
+  height: 5px;
+  position: absolute;
+  transform: rotate(-6deg);
+  z-index: 3;
+}
+
+.lamp-8:before {
+  left: 35px;
+  top: -24px;
+  border-left: black 3px solid;
+  border-right: black 3px solid;
+  width: 8px;
+  height: 43px;
+  position: absolute;
+  transform: rotate(83deg);
+  z-index: 3;
+}
+
+.lamp-8:after {
+  left: 160px;
+  top: -67px;
+  border-left: black 9px solid;
+  border-right: black 9px solid;
+  width: 22px;
+  height: 83px;
+  position: absolute;
+  transform: rotate(80deg);
+  z-index: 3;
+}
+
+.lamp-9 {
+  left: 400px;
+  top: 52px;
+  border-left: black 5px solid;
+  border-right: black 5px solid;
+  width: 13px;
+  height: 73px;
+  position: absolute;
+  transform: rotate(75deg);
+  z-index: 3;
+}
+
+.lamp-9:before {
+  left: -16px;
+  top: -170px;
+  border-left: black 13px solid;
+  border-right: black 13px solid;
+  width: 33px;
+  height: 80px;
+  position: absolute;
+  z-index: 3;
 }
 
 .road {
